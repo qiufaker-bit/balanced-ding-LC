@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>平衡腚：山地平衡房车</title>
+    <style>
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        overflow: hidden;
+        background: #111318;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      canvas {
+        display: block;
+        width: 100vw;
+        height: 100vh;
+        touch-action: none;
+        background: #f4efe6;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="game"></canvas>
+    <script src="../src/balance-ding-game.js"></script>
+    <script>
+      const game = BalanceDing.createBalanceDingGame({
+        canvas: document.getElementById('game'),
+        platform: 'web',
+        characterSrc: '../assets/rv-rider-character.png',
+        bombSrc: '../assets/bacteria-bomb.png'
+      });
+      game.start();
+    </script>
+  </body>
+</html>

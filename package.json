@@ -1,0 +1,8 @@
+{
+  "name": "balance-ding-minigame",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "node tools/serve.mjs"
+  }
+}

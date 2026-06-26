@@ -1,0 +1,15 @@
+{
+  "description": "平衡腚：期末别倒 微信小游戏 MVP",
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "minified": false
+  },
+  "compileType": "game",
+  "libVersion": "3.6.6",
+  "appid": "touristappid",
+  "projectname": "balance-ding",
+  "condition": {}
+}
